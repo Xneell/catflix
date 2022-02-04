@@ -1,0 +1,45 @@
+* {
+
+}
+body {
+    background-color: black;
+}
+
+.imagem-carrosel {
+    height: 800px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+footer .text{
+    text-decoration-style: none;
+    color: white;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+footer .direitos{
+    text-align: center;
+    color: white;
+}
+
+.tamanhocard {
+    height: 100px;
+}
+
+.configform {
+   text-align: center;
+
+}
+
+.ajuste {
+    margin-bottom: 10px;
+}
+.input {
+    width: 30%;
+    border-color: orange;
+    border-radius: 3px;
+}
