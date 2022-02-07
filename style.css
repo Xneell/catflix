@@ -1,45 +1,121 @@
-* {
 
-}
 body {
+    transition: background 0.5s linear, color 0.5s linear;
+}
+body.dark{
     background-color: black;
+    color: white;
+
+}
+#hajustes {
+    font-weight: bold;
+    margin-left: 15px;
+    color: red;
+    font-size: 35px;
+}
+#hinicio {
+    font-weight: bold;
+}
+#ajustesnb {
+    color: red;
+}
+.container-botao {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+label {
+    background-color: black;
+    border-radius: 40%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.5s linear;
+    margin-top: 9px;
+
+}
+body.dark label{
+    background-color: white;
+}
+input{
+    visibility: hidden;
 }
 
+}
 .imagem-carrosel {
-    height: 800px;
+    height: 450px;
+}
+
+.catalogo {
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+
+}
+.card-tamanho{
+    height: 410px;
+
+}
+.cont-edit{
+    row-gap: 50px;
+}
+.racao {
+    color: red;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.edit-border {
+    width: 80%;
+    border: 2px solid black;
+}
+.edit-text {
+    text-align: center;
+    background-color: #495057;
+}
+
+.edit-textp2{
+    text-align: center;
+}
+.border-p2{
+    border: 2px solid black;
+    row-gap: 50px;
 }
 
 footer {
-    height: 100px;
+    margin-top: 3%;
+    height: auto;
     width: 100%;
     background-color: black;
 }
 
-footer .text{
-    text-decoration-style: none;
-    color: white;
-    padding-top: 20px;
-    margin-left: 50px;
+.image-footer {
+    margin-top: 30px;
+    height: 75px;
+    width: 75px;
+    border-radius: 30px;
 }
-footer .direitos{
+.edit-suporte {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.v-decoration{
+    text-decoration: none;
+}
+.edit-contato{
     text-align: center;
     color: white;
 }
-
-.tamanhocard {
-    height: 100px;
-}
-
-.configform {
-   text-align: center;
+.breve{
+    margin-top: 110px;
+    margin-bottom: 106px;
+    text-align: center;
+    color: Red;
 
 }
 
-.ajuste {
-    margin-bottom: 10px;
-}
-.input {
-    width: 30%;
-    border-color: orange;
-    border-radius: 3px;
-}

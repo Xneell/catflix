@@ -1,0 +1,72 @@
+
+body {
+    transition: background 0.5s linear, color 0.5s linear;
+}
+body.dark{
+    background-color: black;
+    color: white;
+
+}
+#hajustes {
+    font-weight: bold;
+    margin-left: 15px;
+    color: red;
+    font-size: 35px;
+}
+#hinicio {
+    font-weight: bold;
+}
+#ajustesnb {
+    color: red;
+}
+.container-botao {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+.configform {
+   text-align: center;
+   margin-top: 91px;
+   margin-bottom: 90px;
+
+}
+.ajuste {
+    margin-bottom: 15px;
+}
+
+.input {
+    width: 30%;
+    border-color: orange;
+    border-radius: 3px;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.image-footer {
+    margin-top: 30px;
+    height: 75px;
+    width: 75px;
+    border-radius: 30px;
+}
+.edit-suporte {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.v-decoration{
+    text-decoration: none;
+}
+.edit-contato{
+    text-align: center;
+    color: white;
+}
+
+.botao-edit {
+     text-decoration: none;
+}
