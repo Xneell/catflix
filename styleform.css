@@ -25,7 +25,12 @@ body.dark{
     right: 10px;
     text-align: right;
 }
-
+.info-adocao{
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
 .configform {
    text-align: center;
    margin-top: 91px;
